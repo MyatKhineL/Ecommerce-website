@@ -1,0 +1,14 @@
+#header {
+    height: 50vh;
+    background: linear-gradient(#007bff, white);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+#header .nav-link {
+    color: white !important;
+}
+
+#header img {
+    width: 60% !important;
+}

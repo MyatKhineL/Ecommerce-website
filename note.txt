@@ -1,0 +1,21 @@
+user ->
+name eamil password image
+
+category ->
+slug name
+
+product ->
+category_id slug name image description price view_count()
+
+product cart ->
+user_id product_id quantity
+
+product order ->
+user_id product_id quantity created_at
+
+product_save ->
+product_id user_id
+
+
+
+
